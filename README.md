@@ -74,18 +74,6 @@ python utils/generate_graphs.py
 ```
 All graphs will be generated and placed within the metrics directory.
 
-## 4. How to create your own first agent.
-
-Insert detailed guideline on how to create and run your first agent.
-
-## 5. How is an agent scored.
-
-Insert detailed information about the scoring function.
-
-## 6. How to submit your agent on the Kaggle platform.
-
-Insert detailed information on Kaggle submissions.
-
 ## Authors
 
 *   **Corryn Collins**
