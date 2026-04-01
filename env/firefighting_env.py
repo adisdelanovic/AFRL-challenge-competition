@@ -198,7 +198,7 @@ class FireFightingEnv(gym.Env):
             n_obstacles = 0
         elif self.curriculum_stage == 4:
             n_smokes = 1
-            n_fires = 1
+            n_fires = 3
             n_obstacles = 1
         else:
             n_smokes = self.np_random.integers(self.config.MIN_SMOKE_AREAS, self.config.MAX_SMOKE_AREAS + 1)
