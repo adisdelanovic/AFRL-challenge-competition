@@ -1,0 +1,10 @@
+*.png
+*.csv
+/ppo_tensorboard
+/notebooks/submission.py
+/model_archive
+/models
+__pycache__/
+*.pyc
+/tensorboard_logs
+/videos

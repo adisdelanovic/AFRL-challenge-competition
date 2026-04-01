@@ -1,0 +1,9 @@
+gymnasium>=0.29.0
+numpy>=1.24.0
+pygame>=2.5.0
+stable-baselines3[extra]
+torch
+protobuf==3.20.3
+seaborn>=0.13.2
+jupyter>=1.1.1
+imageio>=2.37.0

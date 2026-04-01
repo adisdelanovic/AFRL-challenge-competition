@@ -1,0 +1,19 @@
+# environment.yml
+name: afrl_challenge_env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - gymnasium>=0.29.0
+    - numpy<2.0,>=1.24.0
+    - pygame>=2.5.0
+    - stable-baselines3[extra]
+    - torch
+    - protobuf==3.20.3
+    - seaborn>=0.13.2
+    - jupyter>=1.1.1
+    - imageio>=2.37.0
+    - moviepy>=2.2.1
+    - -e .
